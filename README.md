@@ -7,7 +7,7 @@
 ![platform](https://img.shields.io/badge/platform-iOS-brightgreen.svg)
 ![contact](https://img.shields.io/badge/contact-1020304029%40qq.com-brightgreen.svg)
 
-可以在 iOS App 状态栏很容易的显示消息通知
+可以在 iOS App 状态栏很容易的显示消息通知。
 
 ![info](https://raw.githubusercontent.com/WangWenzhuang/ZKStatusBarNotification/master/image/info.jpeg)
 ![error](https://raw.githubusercontent.com/WangWenzhuang/ZKStatusBarNotification/master/image/error.jpeg)
