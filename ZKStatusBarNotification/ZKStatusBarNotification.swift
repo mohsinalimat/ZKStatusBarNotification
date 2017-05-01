@@ -108,17 +108,17 @@ extension ZKStatusBarNotification {
 
 // MARK: - 类方法
 extension ZKStatusBarNotification {
-    /// 显示普通信息
+    /// 显示情景 -> 信息
     public static func showInfo(_ status: String?) {
         shared.show(notificationType: .info, status: status)
     }
     
-    /// 显示成功信息
+    /// 显示情景 -> 成功
     public static func showSuccess(_ status: String?) {
         shared.show(notificationType: .success, status: status)
     }
     
-    // 显示失败信息
+    /// 显示情景 -> 错误
     public static func showError(_ status: String?) {
         shared.show(notificationType: .error, status: status)
     }
@@ -133,17 +133,17 @@ extension ZKStatusBarNotification {
         Config.textColor = color
     }
     
-    /// 设置普通消息背景颜色
+    /// 设置情景 -> 信息背景颜色
     public static func setInfoBackgroundColor(_ color: UIColor) {
         Config.infoBackgroundColor = color
     }
     
-    /// 设置出错消息背景颜色
+    /// 设置情景 -> 出错背景颜色
     public static func setErrorBackgroundColor(_ color: UIColor) {
         Config.errorBackgroundColor = color
     }
     
-    /// 设置成功消息背景颜色
+    /// 设置情景 -> 成功背景颜色
     public static func setsuccessBackgroundColor(_ color: UIColor) {
         Config.successBackgroundColor = color
     }
